@@ -1,0 +1,6 @@
+# avoid ~/mbox, keep messages in the system mailbox
+set hold
+# only truncate system mailbox instead of deleting when empty
+set keep
+# add messages to ~/mbox at quit time
+set keepsave

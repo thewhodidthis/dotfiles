@@ -1,0 +1,14 @@
+# Global $HOME based rsync(1) excludes
+.DS_Store
+.editorconfig
+.git
+.gitignore
+.gitkeep
+.gitattributes
+.ivory
+.well-known
+.*.swp
+node_modules
+wordpress/wp-config.php
+wordpress/wp-content/themes/**/.*
+Makefile

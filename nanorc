@@ -1,0 +1,29 @@
+# Automatically indent
+set autoindent
+
+# Use bold instead of reverse video text
+set boldtext
+
+# Skip case sensitive searches by default
+unset casesensitive
+
+# Show cursor position
+set const
+
+# Enable mouse support if possible
+set mouse
+
+# Follow symlinks when writing files
+unset nofollow
+
+# Do wrap text
+unset nowrap
+
+# Hide statusbar messages after 1 keystroke instead of 25
+set quickblank
+
+# Needed for mouse support
+unset rebindkeypad
+
+# The default being 8
+set tabsize "4"
