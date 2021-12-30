@@ -92,6 +92,9 @@ set synmaxcol=10000
 " down tab spaces from 8
 set tabstop=2
 
+" override terminal tab title
+set title
+
 " scroll faster
 set ttyscroll=3
 
