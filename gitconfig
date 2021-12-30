@@ -1,5 +1,5 @@
 [user]
-	email = "thewhodidthis@gmail.com"
+	email = "thewhodidthis@fastmail.com"
 	name = "thewhodidthis"
 [alias]
 	abort = reset --hard HEAD
