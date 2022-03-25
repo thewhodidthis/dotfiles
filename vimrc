@@ -96,7 +96,9 @@ set tabstop=2
 set title
 
 " scroll faster
-set ttyscroll=3
+if !has('nvim')
+  set ttyscroll=3
+endif
 
 " up undo history
 set undolevels=1000
