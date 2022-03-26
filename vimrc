@@ -116,9 +116,9 @@ syntax enable
 filetype plugin indent on
 
 " fix coloring
-autocmd BufNewFile,BufRead *.md set filetype=markdown
-autocmd BufNewFile,BufRead *.mjs set filetype=javascript
 autocmd BufNewFile,BufRead *.cjs set filetype=javascript
+autocmd BufNewFile,BufRead *.mjs set filetype=javascript
+autocmd BufNewFile,BufRead *.md set filetype=markdown
 
 " fix for crontab
 autocmd FileType crontab setlocal nowritebackup
