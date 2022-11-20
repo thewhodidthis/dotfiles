@@ -22,7 +22,7 @@ alias ll='ls -a'
 # Jump up a level real quick
 alias ..='cd ..'
 
-# Help with $TERM title because ksh(1) lacks $COMMAND_PROMPT or `precmd` hooks
+# Helps with $TERM title because ksh(1) lacks $COMMAND_PROMPT or `precmd` hooks
 # https://unix.stackexchange.com/questions/334982
 title() {
   # Produces a bracketless $PS1 and even if Terminal.app refers to 'Ps' as
