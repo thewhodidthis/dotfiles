@@ -13,6 +13,8 @@ set encoding=utf-8
 
 " indent based on previous line
 set autoindent
+set smartindent
+set cindent
 
 " reload changes from disk
 set autoread
