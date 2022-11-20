@@ -42,4 +42,4 @@ cd() {
 }
 
 # When opening a new tab or window
-title
+cd $PWD
