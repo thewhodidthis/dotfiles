@@ -1,6 +1,6 @@
-init.author.name=Thepersonwhodidthis
-init.author.email=thewhodidthis@fastmail.com
-init.author.url=http://thewhodidthis.com/
-init.version=0.0.0
+--init-author-name=Thepersonwhodidthis
+--init-author-email=thewhodidthis@fastmail.com
+--init-author-url=http://thewhodidthis.com/
+--init-version=0.0.0
 package-lock=false
 color=false
