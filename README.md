@@ -5,6 +5,7 @@ Contains personal preferences and configurations for everyday commands and progr
 | File               | Summary                                                                                         |
 |:------------------ |:----------------------------------------------------------------------------------------------- | 
 | _cvsignore_        | A global, `-C` flag equivalent, whitespace delimited list of files for `rsync(1)` to ignore     |
+| _digrc_            | Print just the answer section by default                                                        |
 | _editorconfig_     | Unified per language settings, using spaces instead of tabs no question                         |
 | _exrc_             | Prefer `vi(1)` on OpenBSD                                                                       |
 | _gitconfig_        | Global settings such as `user.email` and [aliases]                                              |
