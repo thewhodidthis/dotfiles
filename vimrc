@@ -105,11 +105,17 @@ endif
 " up undo history
 set undolevels=1000
 
+" show completions in status line
+set wildmenu
+
 " make movement keys wrap to the next/previous line
 set whichwrap=b,s,h,l,<,>,[,]
 
 " use new regular expression engine
 set re=0
+
+" show match count
+set shortmess=""
 
 " allow highlighting regardless of color scheme
 syntax enable
@@ -136,6 +142,10 @@ nnoremap <C-l> <C-w>l
 
 " turn off search highlight easily
 nnoremap <leader><space> :nohlsearch<CR>
+
+" for Go
+autocmd FileType go nnoremap <space>, :!goimports -w %<CR>
+" autocmd BufWritePost,FileWritePost *.go !goimports -w %
 
 " stay in visual mode after shift indenting
 vnoremap < <gv
