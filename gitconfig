@@ -1,0 +1,34 @@
+[user]
+	email = "me@thewhodidthis.com"
+	name = "thewhodidthis"
+[alias]
+	abort = reset --hard HEAD
+	co = checkout
+	count = !git shortlog -sn
+	recommit = commit --amend
+	undo = reset HEAD~1
+	unstage = reset HEAD --
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore
+	pager = less -R
+[pager]
+	branch = false
+[color]
+	ui = auto
+[push]
+	default = simple
+[pull]
+	ff = only
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[instaweb]
+	httpd = webrick
+[init]
+	defaultBranch = main
+[sendemail]
+	smtpserver = smtp.fastmail.com
+	smtpencryption = tls
+	smtpserverport = 587
+	smtpuser = me@thewhodidthis.com

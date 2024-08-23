@@ -1,0 +1,22 @@
+# System
+.DS_Store
+.Spotlight-V100
+.Trashes
+*~
+._*
+*.log
+*.sql
+*.sqlite
+*.swp
+
+# Used instead of '.env', conveniently ignored by `npm-pack`
+.npmrc
+
+# Used for rsyncing public folders
+.ivory
+
+# Just in case
+node_modules
+
+# Danger
+conf*
